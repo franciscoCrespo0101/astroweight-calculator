@@ -14,6 +14,13 @@ var planets = [
 
 //dynamicaly generate the selected element
 
+// jquery
+$.each(planets, function(planet) {
+  $("#selectPlanet").append() 
+})
+
+// javascript
+
 for (var i = 0; i < planets.length; i++) {
   var planet = planets[i];
 
